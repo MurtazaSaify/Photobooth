@@ -15,6 +15,7 @@
 		F9D2F56226384D83001D3C17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D2F56026384D83001D3C17 /* LaunchScreen.storyboard */; };
 		F9D2F56D26384D83001D3C17 /* PhotoboothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F56C26384D83001D3C17 /* PhotoboothTests.swift */; };
 		F9D2F57826384D83001D3C17 /* PhotoboothUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F57726384D83001D3C17 /* PhotoboothUITests.swift */; };
+		F9D2F58B26384D83001D3C17 /* VIPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F58A26384D83001D3C17 /* VIPER.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F9D2F57326384D83001D3C17 /* PhotoboothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoboothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D2F57726384D83001D3C17 /* PhotoboothUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoboothUITests.swift; sourceTree = "<group>"; };
 		F9D2F57926384D83001D3C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9D2F58A26384D83001D3C17 /* VIPER.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIPER.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		F9D2F55426384D83001D3C17 /* Photobooth */ = {
 			isa = PBXGroup;
 			children = (
+				F9D2F58826384D83001D3C17 /* Common */,
 				F9D2F55526384D83001D3C17 /* AppDelegate.swift */,
 				F9D2F55726384D83001D3C17 /* SceneDelegate.swift */,
 				F9D2F55926384D83001D3C17 /* ContentView.swift */,
@@ -134,6 +137,23 @@
 				F9D2F57926384D83001D3C17 /* Info.plist */,
 			);
 			path = PhotoboothUITests;
+			sourceTree = "<group>";
+		};
+		F9D2F58826384D83001D3C17 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F58926384D83001D3C17 /* Interfaces */,
+			);
+			name = Common;
+			path = Modules/Common;
+			sourceTree = "<group>";
+		};
+		F9D2F58926384D83001D3C17 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F58A26384D83001D3C17 /* VIPER.swift */,
+			);
+			path = Interfaces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D2F58B26384D83001D3C17 /* VIPER.swift in Sources */,
 				F9D2F55626384D83001D3C17 /* AppDelegate.swift in Sources */,
 				F9D2F55826384D83001D3C17 /* SceneDelegate.swift in Sources */,
 				F9D2F55A26384D83001D3C17 /* ContentView.swift in Sources */,
