@@ -28,7 +28,7 @@ extension PhotoListViewPresenter: PhotoListPresenterInputInterface {
         case let .photoDetails(index):
             if let photo = interactor?.getPhotoAt(index: index) {
                 return AnyView(NavigationLink(
-                    destination: Text("Photo Details")) {
+                    destination: ShowPhotoDetailsModule().build(photo: photo)) {
                     content()
                 })
             } else {
