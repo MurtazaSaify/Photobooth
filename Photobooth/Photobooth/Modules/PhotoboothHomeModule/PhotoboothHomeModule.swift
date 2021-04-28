@@ -21,7 +21,9 @@ protocol PhotoboothHomeInteractorInputInterface: InteractorInputInterface {
     func getImageData() -> Data?
 }
 
-protocol PhotoboothHomeRouterInputInterface: RouterInputInterface {}
+protocol PhotoboothHomeRouterInputInterface: RouterInputInterface {
+    func makeRecordPhotoDetailsView(imageData: Data?) -> RecordPhotoDetailsView
+}
 
 final class PhotoboothHomeModule: ModuleInterface {
     typealias View = PhotoboothHomeView
