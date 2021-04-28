@@ -15,6 +15,23 @@
 		F9D2F56226384D83001D3C17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D2F56026384D83001D3C17 /* LaunchScreen.storyboard */; };
 		F9D2F56D26384D83001D3C17 /* PhotoboothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F56C26384D83001D3C17 /* PhotoboothTests.swift */; };
 		F9D2F57826384D83001D3C17 /* PhotoboothUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F57726384D83001D3C17 /* PhotoboothUITests.swift */; };
+		F9D2F58B26384D83001D3C17 /* VIPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F58A26384D83001D3C17 /* VIPER.swift */; };
+		F9D2F59A26384D83001D3C17 /* PhotoboothHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F59226384D83001D3C17 /* PhotoboothHomePresenter.swift */; };
+		F9D2F59B26384D83001D3C17 /* PhotoboothHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F59426384D83001D3C17 /* PhotoboothHomeView.swift */; };
+		F9D2F59C26384D83001D3C17 /* PhotoboothHomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F59526384D83001D3C17 /* PhotoboothHomeModule.swift */; };
+		F9D2F59D26384D83001D3C17 /* PhotoboothHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F59726384D83001D3C17 /* PhotoboothHomeInteractor.swift */; };
+		F9D2F59E26384D83001D3C17 /* PhotoboothHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F59926384D83001D3C17 /* PhotoboothHomeRouter.swift */; };
+		F9D2F5A726384D83001D3C17 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5A626384D83001D3C17 /* ImagePickerView.swift */; };
+		F9D2F5B226384D83001D3C17 /* PhotoboothHomePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5AF26384D83001D3C17 /* PhotoboothHomePresenterTests.swift */; };
+		F9D2F5B326384D83001D3C17 /* PhotoboothHomeModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5B026384D83001D3C17 /* PhotoboothHomeModuleTests.swift */; };
+		F9D2F5B426384D83001D3C17 /* PhotoboothHomeInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5B126384D83001D3C17 /* PhotoboothHomeInteractorTests.swift */; };
+		F9D2F5BE26384D83001D3C17 /* VIPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F58A26384D83001D3C17 /* VIPER.swift */; };
+		F9D2F5BF26384D83001D3C17 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5A626384D83001D3C17 /* ImagePickerView.swift */; };
+		F9D2F5C326384D83001D3C17 /* PhotoboothHomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F59526384D83001D3C17 /* PhotoboothHomeModule.swift */; };
+		F9D2F5C726384D83001D3C17 /* PhotoboothHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F59426384D83001D3C17 /* PhotoboothHomeView.swift */; };
+		F9D2F5CB26384D83001D3C17 /* PhotoboothHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F59726384D83001D3C17 /* PhotoboothHomeInteractor.swift */; };
+		F9D2F5CF26384D83001D3C17 /* PhotoboothHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F59226384D83001D3C17 /* PhotoboothHomePresenter.swift */; };
+		F9D2F5D326384D83001D3C17 /* PhotoboothHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F59926384D83001D3C17 /* PhotoboothHomeRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +66,16 @@
 		F9D2F57326384D83001D3C17 /* PhotoboothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoboothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D2F57726384D83001D3C17 /* PhotoboothUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoboothUITests.swift; sourceTree = "<group>"; };
 		F9D2F57926384D83001D3C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9D2F58A26384D83001D3C17 /* VIPER.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIPER.swift; sourceTree = "<group>"; };
+		F9D2F59226384D83001D3C17 /* PhotoboothHomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoboothHomePresenter.swift; sourceTree = "<group>"; };
+		F9D2F59426384D83001D3C17 /* PhotoboothHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoboothHomeView.swift; sourceTree = "<group>"; };
+		F9D2F59526384D83001D3C17 /* PhotoboothHomeModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoboothHomeModule.swift; sourceTree = "<group>"; };
+		F9D2F59726384D83001D3C17 /* PhotoboothHomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoboothHomeInteractor.swift; sourceTree = "<group>"; };
+		F9D2F59926384D83001D3C17 /* PhotoboothHomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoboothHomeRouter.swift; sourceTree = "<group>"; };
+		F9D2F5A626384D83001D3C17 /* ImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		F9D2F5AF26384D83001D3C17 /* PhotoboothHomePresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoboothHomePresenterTests.swift; sourceTree = "<group>"; };
+		F9D2F5B026384D83001D3C17 /* PhotoboothHomeModuleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoboothHomeModuleTests.swift; sourceTree = "<group>"; };
+		F9D2F5B126384D83001D3C17 /* PhotoboothHomeInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoboothHomeInteractorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +126,8 @@
 		F9D2F55426384D83001D3C17 /* Photobooth */ = {
 			isa = PBXGroup;
 			children = (
+				F9D2F58826384D83001D3C17 /* Common */,
+				F9D2F58F26384D83001D3C17 /* PhotoboothHomeModule */,
 				F9D2F55526384D83001D3C17 /* AppDelegate.swift */,
 				F9D2F55726384D83001D3C17 /* SceneDelegate.swift */,
 				F9D2F55926384D83001D3C17 /* ContentView.swift */,
@@ -121,6 +150,7 @@
 		F9D2F56B26384D83001D3C17 /* PhotoboothTests */ = {
 			isa = PBXGroup;
 			children = (
+				F9D2F5AE26384D83001D3C17 /* PhotoboothHomeModule */,
 				F9D2F56C26384D83001D3C17 /* PhotoboothTests.swift */,
 				F9D2F56E26384D83001D3C17 /* Info.plist */,
 			);
@@ -134,6 +164,95 @@
 				F9D2F57926384D83001D3C17 /* Info.plist */,
 			);
 			path = PhotoboothUITests;
+			sourceTree = "<group>";
+		};
+		F9D2F58826384D83001D3C17 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F58926384D83001D3C17 /* Interfaces */,
+				F9D2F5A526384D83001D3C17 /* UI */,
+			);
+			name = Common;
+			path = Modules/Common;
+			sourceTree = "<group>";
+		};
+		F9D2F58926384D83001D3C17 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F58A26384D83001D3C17 /* VIPER.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		F9D2F58F26384D83001D3C17 /* PhotoboothHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F59526384D83001D3C17 /* PhotoboothHomeModule.swift */,
+				F9D2F59326384D83001D3C17 /* View */,
+				F9D2F59626384D83001D3C17 /* Interactor */,
+				F9D2F59126384D83001D3C17 /* Presenter */,
+				F9D2F59026384D83001D3C17 /* Entity */,
+				F9D2F59826384D83001D3C17 /* Router */,
+			);
+			name = PhotoboothHomeModule;
+			path = Modules/PhotoboothHomeModule;
+			sourceTree = "<group>";
+		};
+		F9D2F59026384D83001D3C17 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F9D2F59126384D83001D3C17 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F59226384D83001D3C17 /* PhotoboothHomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F9D2F59326384D83001D3C17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F59426384D83001D3C17 /* PhotoboothHomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9D2F59626384D83001D3C17 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F59726384D83001D3C17 /* PhotoboothHomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F9D2F59826384D83001D3C17 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F59926384D83001D3C17 /* PhotoboothHomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F9D2F5A526384D83001D3C17 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F5A626384D83001D3C17 /* ImagePickerView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F9D2F5AE26384D83001D3C17 /* PhotoboothHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F5AF26384D83001D3C17 /* PhotoboothHomePresenterTests.swift */,
+				F9D2F5B026384D83001D3C17 /* PhotoboothHomeModuleTests.swift */,
+				F9D2F5B126384D83001D3C17 /* PhotoboothHomeInteractorTests.swift */,
+			);
+			path = PhotoboothHomeModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +325,6 @@
 					};
 					F9D2F56726384D83001D3C17 = {
 						CreatedOnToolsVersion = 12.0;
-						TestTargetID = F9D2F55126384D83001D3C17;
 					};
 					F9D2F57226384D83001D3C17 = {
 						CreatedOnToolsVersion = 12.0;
@@ -266,9 +384,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D2F58B26384D83001D3C17 /* VIPER.swift in Sources */,
+				F9D2F59A26384D83001D3C17 /* PhotoboothHomePresenter.swift in Sources */,
 				F9D2F55626384D83001D3C17 /* AppDelegate.swift in Sources */,
+				F9D2F59D26384D83001D3C17 /* PhotoboothHomeInteractor.swift in Sources */,
+				F9D2F5A726384D83001D3C17 /* ImagePickerView.swift in Sources */,
 				F9D2F55826384D83001D3C17 /* SceneDelegate.swift in Sources */,
 				F9D2F55A26384D83001D3C17 /* ContentView.swift in Sources */,
+				F9D2F59C26384D83001D3C17 /* PhotoboothHomeModule.swift in Sources */,
+				F9D2F59E26384D83001D3C17 /* PhotoboothHomeRouter.swift in Sources */,
+				F9D2F59B26384D83001D3C17 /* PhotoboothHomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +401,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D2F5BE26384D83001D3C17 /* VIPER.swift in Sources */,
+				F9D2F5CF26384D83001D3C17 /* PhotoboothHomePresenter.swift in Sources */,
+				F9D2F5B326384D83001D3C17 /* PhotoboothHomeModuleTests.swift in Sources */,
 				F9D2F56D26384D83001D3C17 /* PhotoboothTests.swift in Sources */,
+				F9D2F5B226384D83001D3C17 /* PhotoboothHomePresenterTests.swift in Sources */,
+				F9D2F5CB26384D83001D3C17 /* PhotoboothHomeInteractor.swift in Sources */,
+				F9D2F5BF26384D83001D3C17 /* ImagePickerView.swift in Sources */,
+				F9D2F5C726384D83001D3C17 /* PhotoboothHomeView.swift in Sources */,
+				F9D2F5D326384D83001D3C17 /* PhotoboothHomeRouter.swift in Sources */,
+				F9D2F5C326384D83001D3C17 /* PhotoboothHomeModule.swift in Sources */,
+				F9D2F5B426384D83001D3C17 /* PhotoboothHomeInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +610,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PhotoboothTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -488,7 +622,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photobooth.app/Photobooth";
 			};
 			name = Debug;
 		};
@@ -496,7 +629,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PhotoboothTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -509,7 +641,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photobooth.app/Photobooth";
 			};
 			name = Release;
 		};
