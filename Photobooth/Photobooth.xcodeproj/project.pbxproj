@@ -32,6 +32,35 @@
 		F9D2F5CB26384D83001D3C17 /* PhotoboothHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F59726384D83001D3C17 /* PhotoboothHomeInteractor.swift */; };
 		F9D2F5CF26384D83001D3C17 /* PhotoboothHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F59226384D83001D3C17 /* PhotoboothHomePresenter.swift */; };
 		F9D2F5D326384D83001D3C17 /* PhotoboothHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F59926384D83001D3C17 /* PhotoboothHomeRouter.swift */; };
+		F9D2F5E9263907C6001D3C17 /* DatabaseOperationsManagerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5E2263907C6001D3C17 /* DatabaseOperationsManagerInterface.swift */; };
+		F9D2F5EA263907C6001D3C17 /* DefautDatabaseOperationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5E3263907C6001D3C17 /* DefautDatabaseOperationsManager.swift */; };
+		F9D2F5EB263907C6001D3C17 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5E5263907C6001D3C17 /* CoreDataStack.swift */; };
+		F9D2F5EC263907C6001D3C17 /* CoreDataStackInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5E6263907C6001D3C17 /* CoreDataStackInterface.swift */; };
+		F9D2F5ED263907C6001D3C17 /* Photobooth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5E7263907C6001D3C17 /* Photobooth.xcdatamodeld */; };
+		F9D2F5F4263907CF001D3C17 /* DefaultFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5F2263907CF001D3C17 /* DefaultFileManager.swift */; };
+		F9D2F5F5263907CF001D3C17 /* FileManagerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5F3263907CF001D3C17 /* FileManagerInterface.swift */; };
+		F9D2F60426390A88001D3C17 /* RecordPhotoDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5FC26390A88001D3C17 /* RecordPhotoDetailsPresenter.swift */; };
+		F9D2F60526390A88001D3C17 /* RecordPhotoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5FE26390A88001D3C17 /* RecordPhotoDetailsView.swift */; };
+		F9D2F60626390A88001D3C17 /* RecordPhotoDetailsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5FF26390A88001D3C17 /* RecordPhotoDetailsModule.swift */; };
+		F9D2F60726390A88001D3C17 /* RecordPhotoDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F60126390A88001D3C17 /* RecordPhotoDetailsInteractor.swift */; };
+		F9D2F60826390A88001D3C17 /* RecordPhotoDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F60326390A88001D3C17 /* RecordPhotoDetailsRouter.swift */; };
+		F9D2F61226390BD4001D3C17 /* FlileManagerStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F61026390BD4001D3C17 /* FlileManagerStub.swift */; };
+		F9D2F61326390BD4001D3C17 /* TestCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F61126390BD4001D3C17 /* TestCoreDataStack.swift */; };
+		F9D2F61E26390E62001D3C17 /* RecordPhotoDetailsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F61B26390E62001D3C17 /* RecordPhotoDetailsPresenterTests.swift */; };
+		F9D2F61F26390E62001D3C17 /* RecordPhotoDetailsModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F61C26390E62001D3C17 /* RecordPhotoDetailsModuleTests.swift */; };
+		F9D2F62026390E62001D3C17 /* RecordPhotoDetailsInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F61D26390E62001D3C17 /* RecordPhotoDetailsInteractorTests.swift */; };
+		F9D2F62A26390E6F001D3C17 /* RecordPhotoDetailsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5FF26390A88001D3C17 /* RecordPhotoDetailsModule.swift */; };
+		F9D2F63126390E73001D3C17 /* RecordPhotoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5FE26390A88001D3C17 /* RecordPhotoDetailsView.swift */; };
+		F9D2F63526390E7B001D3C17 /* RecordPhotoDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5FC26390A88001D3C17 /* RecordPhotoDetailsPresenter.swift */; };
+		F9D2F63626390E7B001D3C17 /* RecordPhotoDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F60126390A88001D3C17 /* RecordPhotoDetailsInteractor.swift */; };
+		F9D2F63726390E7B001D3C17 /* RecordPhotoDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F60326390A88001D3C17 /* RecordPhotoDetailsRouter.swift */; };
+		F9D2F63B26390E82001D3C17 /* DefaultFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5F2263907CF001D3C17 /* DefaultFileManager.swift */; };
+		F9D2F63F26390E85001D3C17 /* FileManagerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5F3263907CF001D3C17 /* FileManagerInterface.swift */; };
+		F9D2F64326390E8C001D3C17 /* DatabaseOperationsManagerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5E2263907C6001D3C17 /* DatabaseOperationsManagerInterface.swift */; };
+		F9D2F64726390E94001D3C17 /* DefautDatabaseOperationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5E3263907C6001D3C17 /* DefautDatabaseOperationsManager.swift */; };
+		F9D2F64B26390E9A001D3C17 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5E5263907C6001D3C17 /* CoreDataStack.swift */; };
+		F9D2F64F26390E9D001D3C17 /* CoreDataStackInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5E6263907C6001D3C17 /* CoreDataStackInterface.swift */; };
+		F9D2F65326390EB3001D3C17 /* Photobooth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9D2F5E7263907C6001D3C17 /* Photobooth.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +105,23 @@
 		F9D2F5AF26384D83001D3C17 /* PhotoboothHomePresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoboothHomePresenterTests.swift; sourceTree = "<group>"; };
 		F9D2F5B026384D83001D3C17 /* PhotoboothHomeModuleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoboothHomeModuleTests.swift; sourceTree = "<group>"; };
 		F9D2F5B126384D83001D3C17 /* PhotoboothHomeInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoboothHomeInteractorTests.swift; sourceTree = "<group>"; };
+		F9D2F5E2263907C6001D3C17 /* DatabaseOperationsManagerInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseOperationsManagerInterface.swift; sourceTree = "<group>"; };
+		F9D2F5E3263907C6001D3C17 /* DefautDatabaseOperationsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefautDatabaseOperationsManager.swift; sourceTree = "<group>"; };
+		F9D2F5E5263907C6001D3C17 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		F9D2F5E6263907C6001D3C17 /* CoreDataStackInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStackInterface.swift; sourceTree = "<group>"; };
+		F9D2F5E8263907C6001D3C17 /* Photobooth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Photobooth.xcdatamodel; sourceTree = "<group>"; };
+		F9D2F5F2263907CF001D3C17 /* DefaultFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultFileManager.swift; sourceTree = "<group>"; };
+		F9D2F5F3263907CF001D3C17 /* FileManagerInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerInterface.swift; sourceTree = "<group>"; };
+		F9D2F5FC26390A88001D3C17 /* RecordPhotoDetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordPhotoDetailsPresenter.swift; sourceTree = "<group>"; };
+		F9D2F5FE26390A88001D3C17 /* RecordPhotoDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordPhotoDetailsView.swift; sourceTree = "<group>"; };
+		F9D2F5FF26390A88001D3C17 /* RecordPhotoDetailsModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordPhotoDetailsModule.swift; sourceTree = "<group>"; };
+		F9D2F60126390A88001D3C17 /* RecordPhotoDetailsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordPhotoDetailsInteractor.swift; sourceTree = "<group>"; };
+		F9D2F60326390A88001D3C17 /* RecordPhotoDetailsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordPhotoDetailsRouter.swift; sourceTree = "<group>"; };
+		F9D2F61026390BD4001D3C17 /* FlileManagerStub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlileManagerStub.swift; sourceTree = "<group>"; };
+		F9D2F61126390BD4001D3C17 /* TestCoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCoreDataStack.swift; sourceTree = "<group>"; };
+		F9D2F61B26390E62001D3C17 /* RecordPhotoDetailsPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordPhotoDetailsPresenterTests.swift; sourceTree = "<group>"; };
+		F9D2F61C26390E62001D3C17 /* RecordPhotoDetailsModuleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordPhotoDetailsModuleTests.swift; sourceTree = "<group>"; };
+		F9D2F61D26390E62001D3C17 /* RecordPhotoDetailsInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordPhotoDetailsInteractorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +174,7 @@
 			children = (
 				F9D2F58826384D83001D3C17 /* Common */,
 				F9D2F58F26384D83001D3C17 /* PhotoboothHomeModule */,
+				F9D2F5F926390A88001D3C17 /* RecordPhotoDetailsModule */,
 				F9D2F55526384D83001D3C17 /* AppDelegate.swift */,
 				F9D2F55726384D83001D3C17 /* SceneDelegate.swift */,
 				F9D2F55926384D83001D3C17 /* ContentView.swift */,
@@ -150,7 +197,9 @@
 		F9D2F56B26384D83001D3C17 /* PhotoboothTests */ = {
 			isa = PBXGroup;
 			children = (
+				F9D2F60F26390BD4001D3C17 /* Stubs */,
 				F9D2F5AE26384D83001D3C17 /* PhotoboothHomeModule */,
+				F9D2F61A26390E62001D3C17 /* RecordPhotoDetailsModule */,
 				F9D2F56C26384D83001D3C17 /* PhotoboothTests.swift */,
 				F9D2F56E26384D83001D3C17 /* Info.plist */,
 			);
@@ -169,6 +218,8 @@
 		F9D2F58826384D83001D3C17 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				F9D2F5F1263907CF001D3C17 /* FileManager */,
+				F9D2F5E0263907C6001D3C17 /* Database */,
 				F9D2F58926384D83001D3C17 /* Interfaces */,
 				F9D2F5A526384D83001D3C17 /* UI */,
 			);
@@ -253,6 +304,115 @@
 				F9D2F5B126384D83001D3C17 /* PhotoboothHomeInteractorTests.swift */,
 			);
 			path = PhotoboothHomeModule;
+			sourceTree = "<group>";
+		};
+		F9D2F5E0263907C6001D3C17 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F5E1263907C6001D3C17 /* DatabaseOperationsManager */,
+				F9D2F5E4263907C6001D3C17 /* CoreDataStack */,
+				F9D2F5E7263907C6001D3C17 /* Photobooth.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		F9D2F5E1263907C6001D3C17 /* DatabaseOperationsManager */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F5E2263907C6001D3C17 /* DatabaseOperationsManagerInterface.swift */,
+				F9D2F5E3263907C6001D3C17 /* DefautDatabaseOperationsManager.swift */,
+			);
+			path = DatabaseOperationsManager;
+			sourceTree = "<group>";
+		};
+		F9D2F5E4263907C6001D3C17 /* CoreDataStack */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F5E5263907C6001D3C17 /* CoreDataStack.swift */,
+				F9D2F5E6263907C6001D3C17 /* CoreDataStackInterface.swift */,
+			);
+			path = CoreDataStack;
+			sourceTree = "<group>";
+		};
+		F9D2F5F1263907CF001D3C17 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F5F2263907CF001D3C17 /* DefaultFileManager.swift */,
+				F9D2F5F3263907CF001D3C17 /* FileManagerInterface.swift */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		F9D2F5F926390A88001D3C17 /* RecordPhotoDetailsModule */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F5FF26390A88001D3C17 /* RecordPhotoDetailsModule.swift */,
+				F9D2F5FD26390A88001D3C17 /* View */,
+				F9D2F60026390A88001D3C17 /* Interactor */,
+				F9D2F5FB26390A88001D3C17 /* Presenter */,
+				F9D2F5FA26390A88001D3C17 /* Entity */,
+				F9D2F60226390A88001D3C17 /* Router */,
+			);
+			name = RecordPhotoDetailsModule;
+			path = Modules/RecordPhotoDetailsModule;
+			sourceTree = "<group>";
+		};
+		F9D2F5FA26390A88001D3C17 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F9D2F5FB26390A88001D3C17 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F5FC26390A88001D3C17 /* RecordPhotoDetailsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F9D2F5FD26390A88001D3C17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F5FE26390A88001D3C17 /* RecordPhotoDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9D2F60026390A88001D3C17 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F60126390A88001D3C17 /* RecordPhotoDetailsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F9D2F60226390A88001D3C17 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F60326390A88001D3C17 /* RecordPhotoDetailsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F9D2F60F26390BD4001D3C17 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F61026390BD4001D3C17 /* FlileManagerStub.swift */,
+				F9D2F61126390BD4001D3C17 /* TestCoreDataStack.swift */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		F9D2F61A26390E62001D3C17 /* RecordPhotoDetailsModule */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2F61B26390E62001D3C17 /* RecordPhotoDetailsPresenterTests.swift */,
+				F9D2F61C26390E62001D3C17 /* RecordPhotoDetailsModuleTests.swift */,
+				F9D2F61D26390E62001D3C17 /* RecordPhotoDetailsInteractorTests.swift */,
+			);
+			path = RecordPhotoDetailsModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,15 +545,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9D2F58B26384D83001D3C17 /* VIPER.swift in Sources */,
+				F9D2F5EC263907C6001D3C17 /* CoreDataStackInterface.swift in Sources */,
+				F9D2F5ED263907C6001D3C17 /* Photobooth.xcdatamodeld in Sources */,
+				F9D2F60826390A88001D3C17 /* RecordPhotoDetailsRouter.swift in Sources */,
+				F9D2F5F5263907CF001D3C17 /* FileManagerInterface.swift in Sources */,
+				F9D2F5F4263907CF001D3C17 /* DefaultFileManager.swift in Sources */,
+				F9D2F60426390A88001D3C17 /* RecordPhotoDetailsPresenter.swift in Sources */,
+				F9D2F5EA263907C6001D3C17 /* DefautDatabaseOperationsManager.swift in Sources */,
 				F9D2F59A26384D83001D3C17 /* PhotoboothHomePresenter.swift in Sources */,
 				F9D2F55626384D83001D3C17 /* AppDelegate.swift in Sources */,
 				F9D2F59D26384D83001D3C17 /* PhotoboothHomeInteractor.swift in Sources */,
 				F9D2F5A726384D83001D3C17 /* ImagePickerView.swift in Sources */,
+				F9D2F5EB263907C6001D3C17 /* CoreDataStack.swift in Sources */,
 				F9D2F55826384D83001D3C17 /* SceneDelegate.swift in Sources */,
 				F9D2F55A26384D83001D3C17 /* ContentView.swift in Sources */,
 				F9D2F59C26384D83001D3C17 /* PhotoboothHomeModule.swift in Sources */,
 				F9D2F59E26384D83001D3C17 /* PhotoboothHomeRouter.swift in Sources */,
+				F9D2F5E9263907C6001D3C17 /* DatabaseOperationsManagerInterface.swift in Sources */,
 				F9D2F59B26384D83001D3C17 /* PhotoboothHomeView.swift in Sources */,
+				F9D2F60626390A88001D3C17 /* RecordPhotoDetailsModule.swift in Sources */,
+				F9D2F60726390A88001D3C17 /* RecordPhotoDetailsInteractor.swift in Sources */,
+				F9D2F60526390A88001D3C17 /* RecordPhotoDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,17 +573,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D2F61326390BD4001D3C17 /* TestCoreDataStack.swift in Sources */,
+				F9D2F61E26390E62001D3C17 /* RecordPhotoDetailsPresenterTests.swift in Sources */,
+				F9D2F63726390E7B001D3C17 /* RecordPhotoDetailsRouter.swift in Sources */,
+				F9D2F62A26390E6F001D3C17 /* RecordPhotoDetailsModule.swift in Sources */,
+				F9D2F61F26390E62001D3C17 /* RecordPhotoDetailsModuleTests.swift in Sources */,
+				F9D2F64F26390E9D001D3C17 /* CoreDataStackInterface.swift in Sources */,
 				F9D2F5BE26384D83001D3C17 /* VIPER.swift in Sources */,
+				F9D2F63126390E73001D3C17 /* RecordPhotoDetailsView.swift in Sources */,
 				F9D2F5CF26384D83001D3C17 /* PhotoboothHomePresenter.swift in Sources */,
 				F9D2F5B326384D83001D3C17 /* PhotoboothHomeModuleTests.swift in Sources */,
 				F9D2F56D26384D83001D3C17 /* PhotoboothTests.swift in Sources */,
 				F9D2F5B226384D83001D3C17 /* PhotoboothHomePresenterTests.swift in Sources */,
 				F9D2F5CB26384D83001D3C17 /* PhotoboothHomeInteractor.swift in Sources */,
+				F9D2F61226390BD4001D3C17 /* FlileManagerStub.swift in Sources */,
+				F9D2F63B26390E82001D3C17 /* DefaultFileManager.swift in Sources */,
 				F9D2F5BF26384D83001D3C17 /* ImagePickerView.swift in Sources */,
 				F9D2F5C726384D83001D3C17 /* PhotoboothHomeView.swift in Sources */,
+				F9D2F64726390E94001D3C17 /* DefautDatabaseOperationsManager.swift in Sources */,
+				F9D2F64326390E8C001D3C17 /* DatabaseOperationsManagerInterface.swift in Sources */,
 				F9D2F5D326384D83001D3C17 /* PhotoboothHomeRouter.swift in Sources */,
+				F9D2F64B26390E9A001D3C17 /* CoreDataStack.swift in Sources */,
+				F9D2F65326390EB3001D3C17 /* Photobooth.xcdatamodeld in Sources */,
+				F9D2F63626390E7B001D3C17 /* RecordPhotoDetailsInteractor.swift in Sources */,
 				F9D2F5C326384D83001D3C17 /* PhotoboothHomeModule.swift in Sources */,
+				F9D2F63526390E7B001D3C17 /* RecordPhotoDetailsPresenter.swift in Sources */,
+				F9D2F63F26390E85001D3C17 /* FileManagerInterface.swift in Sources */,
 				F9D2F5B426384D83001D3C17 /* PhotoboothHomeInteractorTests.swift in Sources */,
+				F9D2F62026390E62001D3C17 /* RecordPhotoDetailsInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -722,6 +911,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F9D2F5E7263907C6001D3C17 /* Photobooth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F9D2F5E8263907C6001D3C17 /* Photobooth.xcdatamodel */,
+			);
+			currentVersion = F9D2F5E8263907C6001D3C17 /* Photobooth.xcdatamodel */;
+			path = Photobooth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F9D2F54A26384D83001D3C17 /* Project object */;
 }

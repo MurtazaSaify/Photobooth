@@ -12,4 +12,9 @@ enum PhotoboothHomeRoute {
     case recordPhotoDetails
 }
 
-class PhotoboothHomeRouter: PhotoboothHomeRouterInputInterface, RouterInterface {}
+class PhotoboothHomeRouter: PhotoboothHomeRouterInputInterface, RouterInterface {
+
+    func makeRecordPhotoDetailsView(imageData: Data?) -> RecordPhotoDetailsView {
+        return RecordPhotoDetailsModule().build(imageData: imageData)
+    }
+}

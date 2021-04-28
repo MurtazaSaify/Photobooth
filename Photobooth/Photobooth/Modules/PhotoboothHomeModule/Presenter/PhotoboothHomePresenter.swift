@@ -35,7 +35,7 @@ extension PhotoboothHomePresenter: PhotoboothHomePresenterInputInterface {
             })
         case .recordPhotoDetails:
             return AnyView(NavigationLink(
-                destination: Text("To record photo details"),
+                destination: router?.makeRecordPhotoDetailsView(imageData: interactor?.getImageData()),
                 tag: "PhotoDetails",
                 selection: selection) {
                 content()
