@@ -14,6 +14,10 @@ enum PhotoboothHomeRoute {
 
 class PhotoboothHomeRouter: PhotoboothHomeRouterInputInterface, RouterInterface {
 
+    func makePhotoListView() -> PhotoListView {
+        return PhotoListModule().build()
+    }
+
     func makeRecordPhotoDetailsView(imageData: Data?) -> RecordPhotoDetailsView {
         return RecordPhotoDetailsModule().build(imageData: imageData)
     }

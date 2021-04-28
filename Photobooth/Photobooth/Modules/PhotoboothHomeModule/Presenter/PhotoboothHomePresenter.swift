@@ -28,7 +28,7 @@ extension PhotoboothHomePresenter: PhotoboothHomePresenterInputInterface {
         switch route {
         case .photoListView:
             return AnyView(NavigationLink(
-                destination: Text("To photo list view"),
+                destination: PhotoListModule().build(),
                 tag: "Gallery",
                 selection: selection) {
                 content()
