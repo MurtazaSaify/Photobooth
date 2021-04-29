@@ -8,7 +8,7 @@
 import Foundation
 import CoreData
 
-protocol DatabaseOperationsManagerInterface {
+public protocol DatabaseOperationsManagerInterface {
 
     func fetch<T: NSManagedObject>(sortDescriptors: [NSSortDescriptor], predicate: NSPredicate?) -> [T]?
     func initialize<T: NSManagedObject>() -> T?

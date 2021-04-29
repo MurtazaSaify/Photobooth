@@ -12,11 +12,11 @@ import SwiftUI
 final class PhotoListViewInteractor: InteractorInterface {
 
     var output: PhotoListInteractorOutputInterface?
-    let databaseOperationsManager: DatabaseOperationsManagerInterface
+    let databaseOperationsManager: DatabaseOperationsManagerInterface?
 
     private var allPhotos: [Photos] = []
 
-    init(databaseOperationsManager: DatabaseOperationsManagerInterface = DefaultDatabaseOperationsManager.shared) {
+    init(databaseOperationsManager: DatabaseOperationsManagerInterface? = DependencyFactory.shared.databaseOperationsManager) {
         self.databaseOperationsManager = databaseOperationsManager
     }
     
@@ -26,7 +26,7 @@ extension PhotoListViewInteractor: PhotoListInteractorInputInterface {
 
     func fetchPhotoEntities() -> [Photos] {
         if allPhotos.isEmpty {
-            let photos: [Photos]? = databaseOperationsManager.fetch(sortDescriptors: [NSSortDescriptor(key: "creationDate",
+            let photos: [Photos]? = databaseOperationsManager?.fetch(sortDescriptors: [NSSortDescriptor(key: "creationDate",
                                                                                                    ascending: true)], predicate: nil)
             allPhotos = photos ?? []
         }

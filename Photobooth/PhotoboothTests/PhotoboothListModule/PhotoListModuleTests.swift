@@ -16,10 +16,12 @@ class PhotoListModuleTests: XCTestCase {
 
     override func tearDown() {
         photoListModule = nil
+        
     }
 
     override func setUp() {
         photoListModule = PhotoListModule()
+        DependencyFactory.shared.databaseOperationsManager = DefaultDatabaseOperationsManager(coreDataStack: TestCoreDataStack(name: "Photobooth"))
     }
 
     func testModuleAssembly() throws {
