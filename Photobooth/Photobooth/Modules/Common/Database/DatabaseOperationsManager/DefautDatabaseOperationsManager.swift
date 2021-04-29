@@ -8,16 +8,15 @@
 import Foundation
 import CoreData
 
-class DefaultDatabaseOperationsManager: DatabaseOperationsManagerInterface {
+public class DefaultDatabaseOperationsManager: DatabaseOperationsManagerInterface {
 
     var managedObjectContext: NSManagedObjectContext?
-    static let shared = DefaultDatabaseOperationsManager(coreDataStack: CoreDataStack(name: "Photobooth"))
 
     init(coreDataStack: CoreDataStackInterface) {
         self.managedObjectContext = coreDataStack.managedObjectContext
     }
     
-    func fetch<T>(sortDescriptors: [NSSortDescriptor], predicate: NSPredicate?) -> [T]? where T : NSManagedObject {
+    public func fetch<T>(sortDescriptors: [NSSortDescriptor], predicate: NSPredicate?) -> [T]? where T : NSManagedObject {
         let fetchRequest = T.fetchRequest()
         fetchRequest.sortDescriptors = sortDescriptors
         fetchRequest.predicate = predicate
@@ -29,7 +28,7 @@ class DefaultDatabaseOperationsManager: DatabaseOperationsManagerInterface {
         }
     }
     
-    func initialize<T>() -> T? where T : NSManagedObject {
+    public func initialize<T>() -> T? where T : NSManagedObject {
         guard let moc = managedObjectContext else {
             return nil
         }
@@ -37,7 +36,7 @@ class DefaultDatabaseOperationsManager: DatabaseOperationsManagerInterface {
         return object
     }
     
-    func save() throws {
+    public func save() throws {
         try managedObjectContext?.save()
     }
 }

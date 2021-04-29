@@ -7,9 +7,9 @@
 
 import Foundation
 
-class DefaultFileManager: FileManagerInterface {
+public class DefaultFileManager: FileManagerInterface {
 
-    func saveFileData(_ data: Data, name: String, directory: DirectoryType) -> String? {
+    public func saveFileData(_ data: Data, name: String, directory: DirectoryType) -> String? {
         var directoryURL: URL?
         switch directory {
         case .documentDirectory:
@@ -31,12 +31,12 @@ class DefaultFileManager: FileManagerInterface {
         return nil
     }
 
-    func fileDataAt(path: String) -> Data? {
+    public func fileDataAt(path: String) -> Data? {
         let fileURL = URL(fileURLWithPath: path)
         return try? Data(contentsOf: fileURL)
     }
 
-    func removeItemAt(path: String) -> Bool {
+    public func removeItemAt(path: String) -> Bool {
         let url = URL(fileURLWithPath: path)
         do {
             try FileManager.default.removeItem(at: url)
@@ -46,7 +46,7 @@ class DefaultFileManager: FileManagerInterface {
         }
     }
 
-    func pathFor(directoryType: DirectoryType) -> String? {
+    public func pathFor(directoryType: DirectoryType) -> String? {
         switch directoryType {
         case .documentDirectory:
             return FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.path

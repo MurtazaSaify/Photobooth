@@ -7,14 +7,14 @@
 
 import CoreData
 
-class CoreDataStack: CoreDataStackInterface {
+public class CoreDataStack: CoreDataStackInterface {
 
     private var modelName: String
-    var managedObjectContext: NSManagedObjectContext? {
+    public var managedObjectContext: NSManagedObjectContext? {
         return persistentContainer.viewContext
     }
     
-    required init(name: String) {
+    required public init(name: String) {
         self.modelName = name
     }
 

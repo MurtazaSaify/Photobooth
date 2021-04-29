@@ -14,10 +14,10 @@ final class RecordPhotoDetailsInteractor: InteractorInterface {
     let fileManager: FileManagerInterface
     var imageData: Data?
     var output: RecordPhotoDetailsInteractorOutputInterface?
-    var databaseOperationsManager: DatabaseOperationsManagerInterface
+    var databaseOperationsManager: DatabaseOperationsManagerInterface?
     
     init(fileManager: FileManagerInterface,
-         databaseOperationsManager: DatabaseOperationsManagerInterface = DefaultDatabaseOperationsManager.shared) {
+         databaseOperationsManager: DatabaseOperationsManagerInterface? = DependencyFactory.shared.databaseOperationsManager) {
         self.fileManager = fileManager
         self.databaseOperationsManager = databaseOperationsManager
     }
@@ -26,7 +26,7 @@ final class RecordPhotoDetailsInteractor: InteractorInterface {
 extension RecordPhotoDetailsInteractor: RecordPhotoDetailsInteractorInputInterface {
 
     func saveWith(title: String) -> Bool {
-        guard let photo: Photos = databaseOperationsManager.initialize() else {
+        guard let photo: Photos = databaseOperationsManager?.initialize() else {
             return false
         }
         photo.title = title
@@ -36,7 +36,7 @@ extension RecordPhotoDetailsInteractor: RecordPhotoDetailsInteractorInputInterfa
         }
         photo.imagePath = savedImagePath
         do {
-            try databaseOperationsManager.save()
+            try databaseOperationsManager?.save()
             return true
         } catch _ {
             return false

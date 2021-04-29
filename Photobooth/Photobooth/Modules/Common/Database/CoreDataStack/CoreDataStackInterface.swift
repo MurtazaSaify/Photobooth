@@ -8,7 +8,7 @@
 import Foundation
 import CoreData
 
-protocol CoreDataStackInterface {
+public protocol CoreDataStackInterface {
 
     init(name: String)
     var managedObjectContext: NSManagedObjectContext? { get }

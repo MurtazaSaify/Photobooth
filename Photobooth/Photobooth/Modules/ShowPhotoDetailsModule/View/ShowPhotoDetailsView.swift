@@ -21,7 +21,7 @@ struct ShowPhotoDetailsView: ViewInterface, View {
                     Spacer()
                 } else {
                     Spacer()
-                    Text("Some error occured")
+                    Text(TextConstants.genericErrorMessage)
                     Spacer()
                 }
             }.onAppear(perform: {
@@ -29,3 +29,11 @@ struct ShowPhotoDetailsView: ViewInterface, View {
             })
     }
 }
+
+private extension ShowPhotoDetailsView {
+
+    struct TextConstants {
+        static let genericErrorMessage = "Some error occured"
+    }
+}
+

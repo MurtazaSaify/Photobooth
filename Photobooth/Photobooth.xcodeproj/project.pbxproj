@@ -98,6 +98,8 @@
 		F9ED5E002639F6CC001254EA /* ShowPhotoDetailsModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ED5DFF2639F6CC001254EA /* ShowPhotoDetailsModuleTests.swift */; };
 		F9ED5E052639F6E2001254EA /* ShowPhotoDetailsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ED5E042639F6E2001254EA /* ShowPhotoDetailsPresenterTests.swift */; };
 		F9ED5E0A2639F6F6001254EA /* ShowPhotoDetailsInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ED5E092639F6F6001254EA /* ShowPhotoDetailsInteractorTests.swift */; };
+		F9ED5E2C263A5339001254EA /* DependencyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ED5E2B263A5339001254EA /* DependencyFactory.swift */; };
+		F9ED5E30263A55B3001254EA /* DependencyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ED5E2B263A5339001254EA /* DependencyFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +183,7 @@
 		F9ED5DFF2639F6CC001254EA /* ShowPhotoDetailsModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPhotoDetailsModuleTests.swift; sourceTree = "<group>"; };
 		F9ED5E042639F6E2001254EA /* ShowPhotoDetailsPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPhotoDetailsPresenterTests.swift; sourceTree = "<group>"; };
 		F9ED5E092639F6F6001254EA /* ShowPhotoDetailsInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPhotoDetailsInteractorTests.swift; sourceTree = "<group>"; };
+		F9ED5E2B263A5339001254EA /* DependencyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +285,7 @@
 		F9D2F58826384D83001D3C17 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				F9ED5E2A263A530D001254EA /* DI */,
 				F9D2F5F1263907CF001D3C17 /* FileManager */,
 				F9D2F5E0263907C6001D3C17 /* Database */,
 				F9D2F58926384D83001D3C17 /* Interfaces */,
@@ -618,6 +622,14 @@
 			path = ShowPhotoDetailsModule;
 			sourceTree = "<group>";
 		};
+		F9ED5E2A263A530D001254EA /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				F9ED5E2B263A5339001254EA /* DependencyFactory.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -774,6 +786,7 @@
 				F9ED5D872639C943001254EA /* PhotoListItemView.swift in Sources */,
 				F9ED5D842639C943001254EA /* PhotoListViewModel.swift in Sources */,
 				F9D2F5EB263907C6001D3C17 /* CoreDataStack.swift in Sources */,
+				F9ED5E2C263A5339001254EA /* DependencyFactory.swift in Sources */,
 				F9D2F55826384D83001D3C17 /* SceneDelegate.swift in Sources */,
 				F9D2F55A26384D83001D3C17 /* ContentView.swift in Sources */,
 				F9D2F59C26384D83001D3C17 /* PhotoboothHomeModule.swift in Sources */,
@@ -831,6 +844,7 @@
 				F9ED5DEE2639F61B001254EA /* ShowPhotoDetailsView.swift in Sources */,
 				F9ED5DDA2639F5EB001254EA /* FileManagerTests.swift in Sources */,
 				F9ED5DB62639F39A001254EA /* PhotoListViewInteractor.swift in Sources */,
+				F9ED5E30263A55B3001254EA /* DependencyFactory.swift in Sources */,
 				F9ED5DB22639F395001254EA /* PhotoListView.swift in Sources */,
 				F9D2F63526390E7B001D3C17 /* RecordPhotoDetailsPresenter.swift in Sources */,
 				F9ED5DA12639F380001254EA /* PhotoListModule.swift in Sources */,
